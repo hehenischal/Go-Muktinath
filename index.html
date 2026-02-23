@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Go-Muktinath</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css">
+    </head>
+  <body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="80" style="position: relative;">
+
+    <!-- FR-2: Sticky Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Go-Muktinath</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#guide">Travel Guide</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#budget">Budget</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#itinerary">Itinerary</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+     
+    <!-- FR-1: Homepage Hero Section -->
+    <!-- Note: Background is set here via inline style for demonstration; hero-bg.jpg is used -->
+    <header id="home" class="hero-section text-center text-white d-flex align-items-center" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/hero-bg.jpg') center/cover no-repeat;">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Explore Muktinath</h1>
+            <p class="lead">A complete guide for pilgrims and travelers to the sacred shrine.</p>
+       
+        </div>
+    </header>
+
+    <!-- FR-4, 5, 6: Travel Guide Section -->
+<section id="guide" class="container py-5">
+    <h2 class="text-center mb-5">Travel Guide</h2>
+    <p class="text-center text-muted mb-5">Click an icon to view detailed route information, estimated travel times, and costs.</p>
+    <div class="row text-center">
+        <!-- Bus Option -->
+        <div class="col-md-4 mb-4" data-bs-toggle="modal" data-bs-target="#busModal" style="cursor: pointer;">
+            <div class="p-4 border rounded shadow-sm hover-shadow">
+                <img src="assets/bus.png" alt="Bus" class="mb-3" style="width: 80px;">
+                <h4>By Bus</h4>
+                <p class="text-primary">View Details &raquo;</p>
+            </div>
+        </div>
+        <!-- Flight Option -->
+        <div class="col-md-4 mb-4" data-bs-toggle="modal" data-bs-target="#flightModal" style="cursor: pointer;">
+            <div class="p-4 border rounded shadow-sm hover-shadow">
+                <img src="assets/flight.png" alt="Flight" class="mb-3" style="width: 80px;">
+                <h4>By Flight</h4>
+                <p class="text-primary">View Details &raquo;</p>
+            </div>
+        </div>
+        <!-- Jeep Option -->
+        <div class="col-md-4 mb-4" data-bs-toggle="modal" data-bs-target="#jeepModal" style="cursor: pointer;">
+            <div class="p-4 border rounded shadow-sm hover-shadow">
+                <img src="assets/jeep.png" alt="Jeep" class="mb-3" style="width: 80px;">
+                <h4>By Jeep</h4>
+                <p class="text-primary">View Details &raquo;</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- FR-7, 8: Budget Section -->
+<section id="budget" class="container py-5">
+    <div class="text-center mb-5">
+        <h2 class="fw-bold">Budget Estimation</h2>
+        <p class="text-muted">Plan your trip expenses based on your travel style.</p>
+    </div>
+    
+    <div id="budget-table-container" class="shadow-sm rounded bg-white p-3">
+        <!-- JS will inject the table here -->
+    </div>
+
+    <div class="mt-4 p-3 bg-light border-start border-4 border-warning rounded">
+        <p class="mb-0 small text-dark">
+            <strong>Note:</strong> Costs are approximate and may vary by season (High season: March-May, Sept-Nov). 
+            Prices are subject to change by local transport and hotel operators.
+        </p>
+    </div>
+</section>
+    
+     <!-- FR-9, 10: Expanded Itinerary Section -->
+<section id="itinerary" class="container py-5">
+    <h2 class="text-center mb-4">Choose Your Plan</h2>
+    <div class="d-flex flex-wrap justify-content-center gap-2 mb-5">
+        <button class="btn btn-outline-primary active" data-plan="fast">2-Day (Fast)</button>
+        <button class="btn btn-outline-primary" data-plan="standard">3-Day (Standard)</button>
+        <button class="btn btn-outline-primary" data-plan="family">Family/Pilgrim</button>
+        <button class="btn btn-outline-primary" data-plan="adventure">Adventure</button>
+        <button class="btn btn-outline-primary" data-plan="budget">Budget/Solo</button>
+    </div>
+    <div id="itinerary-display" class="col-12">
+        <!-- Content injected by itinerary.js -->
+    </div>
+</section>
+   <!-- FR-11: FAQ Section -->
+<section id="faq" class="container py-5">
+    <div class="text-center mb-5">
+        <h2 class="fw-bold">Frequently Asked Questions</h2>
+        <p class="text-muted">Common queries for pilgrims and travelers.</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="accordion" id="faq-accordion">
+                <!-- JavaScript will inject collapsible FAQs here (FR-11) -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Bus Modal -->
+<div class="modal fade" id="busModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Travel by Bus (Budget/Solo Plan)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Route:</strong> Kathmandu/Pokhara to Jomsom via Beni [1].</p>
+                <p><strong>Estimated Time:</strong> 12–15 hours from Pokhara [1].</p>
+                <p><strong>Condition:</strong> Expect bumpy mountain roads. Highly recommended for budget-conscious travelers and solo backpackers.</p>
+                <p><strong>Budget Tip:</strong> This is the most cost-effective way to reach the region [1].</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Flight Modal -->
+<div class="modal fade" id="flightModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Travel by Flight (Fast/Family Plan)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Route:</strong> Pokhara Airport to Jomsom Airport [1].</p>
+                <p><strong>Estimated Time:</strong> 20-minute flight, followed by a 1.5-hour jeep ride to Muktinath [1].</p>
+                <p><strong>Condition:</strong> Weather-dependent. Best for the 2-Day Express or Family plans to avoid long road travel [1].</p>
+                <p><strong>Safety:</strong> Flights usually operate in the early morning to avoid high winds.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Jeep Modal -->
+<div class="modal fade" id="jeepModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Travel by Jeep (Adventure Plan)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Route:</strong> Jomsom to Muktinath via Kagbeni [1].</p>
+                <p><strong>Estimated Time:</strong> 1.5 to 2 hours from Jomsom [1].</p>
+                <p><strong>Condition:</strong> Rugged Himalayan terrain. You can choose between shared jeeps (budget-friendly) or private jeeps (comfortable) [1].</p>
+                <p><strong>Recommendation:</strong> Ideal for adventure seekers wanting to see the gates of Upper Mustang.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Live Weather Detail (Future Enhancement) -->
+<section id="weather-footer" class="py-4 mt-5 transition-bg">
+    <div class="container text-center text-white">
+        <div class="row align-items-center">
+            <!-- Wind Direction (Left) -->
+            <div class="col-4">
+                <div class="small text-uppercase fw-bold opacity-75">Wind</div>
+                <div id="wind-speed" class="h5 mb-0">-- km/h</div>
+            </div>
+
+            <!-- Icon & Location (Center) -->
+            <div class="col-4">
+                <div id="weather-icon" class="display-4 mb-0">🌡️</div>
+                <div class="fw-bold mt-1">Muktinath, NP</div>
+            </div>
+
+            <!-- Temperature (Right) -->
+            <div class="col-4">
+                <div class="small text-uppercase fw-bold opacity-75">Temp</div>
+                <div id="temp-large" class="h2 mb-0 fw-bold">--°C</div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Bootstrap and Custom Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/budget.js"></script>
+    <script src="js/itinerary.js"></script>
+    <script src="js/faq.js"></script>
+     <script src="js/weather.js"></script>
+</body>
+</html>
