@@ -1,6 +1,6 @@
 async function updateDetailedWeather() {
     // Your OpenWeatherMap API key (replace with your own if needed)
-    const apiKey = '7bdd3993098661ed0ba759934ad5097b';
+    // const apiKey = '7bdd3993098661ed0ba759934ad5097b';
     const lat = 28.8163;  // Muktinath latitude
     const lon = 83.8715;  // Muktinath longitude
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
