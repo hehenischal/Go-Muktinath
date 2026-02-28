@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "home": "नेपाली: Home",
+    "guide": "नेपाली: Travel Guide",
+    "budget": "नेपाली: Budget",
+    "itinerary": "नेपाली: Itinerary",
+    "faq": "नेपाली: FAQ"
+  },
+  "hero": {
+    "title": "नेपाली: Explore Muktinath",
+    "subtitle": "नेपाली: A complete guide for pilgrims and travelers to the sacred shrine."
+  },
+  "guide": {
+    "title": "नेपाली: Travel Guide",
+    "subtitle": "नेपाली: Click an icon to view detailed route information, estimated travel times, and costs.",
+    "bus": "नेपाली: By Bus",
+    "flight": "नेपाली: By Flight",
+    "jeep": "नेपाली: By Jeep",
+    "viewDetails": "नेपाली: View Details"
+  },
+  "budget": {
+    "title": "नेपाली: Budget Estimation",
+    "subtitle": "नेपाली: Plan your trip expenses based on your travel style.",
+    "noteLabel": "नेपाली: Note:",
+    "note": "नेपाली: Costs are approximate and may vary by season (High season: March-May, Sept-Nov). Prices are subject to change by local transport and hotel operators."
+  },
+  "itinerary": {
+    "travelers": {
+      "title": "नेपाली: Number of Travelers",
+      "adults": "नेपाली: Adults",
+      "children": "नेपाली: Children",
+      "note": "नेपाली: Children under 10 may get permit discounts and child fares."
+    },
+    "choosePlan": "नेपाली: Choose Your Plan",
+    "planButtons": {
+      "fast": "नेपाली: 2-Day (Fast)",
+      "standard": "नेपाली: 3-Day (Standard)",
+      "family": "नेपाली: Family/Pilgrim",
+      "adventure": "नेपाली: Adventure",
+      "budget": "नेपाली: Budget/Solo"
+    }
+  },
+  "faq": {
+    "title": "नेपाली: Frequently Asked Questions",
+    "subtitle": "नेपाली: Common queries for pilgrims and travelers."
+  },
+  "weather": {
+    "wind": "नेपाली: Wind",
+    "temp": "नेपाली: Temp",
+    "location": "नेपाली: Muktinath, NP"
+  },
+  "modals": {
+    "routeLabel": "नेपाली: Route:",
+    "timeLabel": "नेपाली: Estimated Time:",
+    "conditionLabel": "नेपाली: Condition:",
+    "tipLabel": "नेपाली: Budget Tip:",
+    "safetyLabel": "नेपाली: Safety:",
+    "recommendationLabel": "नेपाली: Recommendation:",
+    "bus": {
+      "title": "नेपाली: Travel by Bus (Budget/Solo Plan)",
+      "route": "नेपाली: Kathmandu/Pokhara to Jomsom via Beni [1].",
+      "time": "नेपाली: 12–15 hours from Pokhara [1].",
+      "condition": "नेपाली: Expect bumpy mountain roads. Highly recommended for budget-conscious travelers and solo backpackers.",
+      "tip": "नेपाली: This is the most cost-effective way to reach the region [1]."
+    },
+    "flight": {
+      "title": "नेपाली: Travel by Flight (Fast/Family Plan)",
+      "route": "नेपाली: Pokhara Airport to Jomsom Airport [1].",
+      "time": "नेपाली: 20-minute flight, followed by a 1.5-hour jeep ride to Muktinath [1].",
+      "condition": "नेपाली: Weather-dependent. Best for the 2-Day Express or Family plans to avoid long road travel [1].",
+      "safety": "नेपाली: Flights usually operate in the early morning to avoid high winds."
+    },
+    "jeep": {
+      "title": "नेपाली: Travel by Jeep (Adventure Plan)",
+      "route": "नेपाली: Jomsom to Muktinath via Kagbeni [1].",
+      "time": "नेपाली: 1.5 to 2 hours from Jomsom [1].",
+      "condition": "नेपाली: Rugged Himalayan terrain. You can choose between shared jeeps (budget-friendly) or private jeeps (comfortable) [1].",
+      "recommendation": "नेपाली: Ideal for adventure seekers wanting to see the gates of Upper Mustang."
+    }
+  }
+}
