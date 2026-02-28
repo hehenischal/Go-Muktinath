@@ -1,6 +1,6 @@
 // Update active nav link on scroll
 function updateActiveNavOnScroll() {
-    const sections = document.querySelectorAll('section');
+    const sections = document.querySelectorAll('section, header'); // Added header
     const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
     
     let currentSection = '';
