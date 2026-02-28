@@ -10,7 +10,7 @@ function loadFAQ() {
     if (!faqContainer) return;
 
     // Get FAQ array from translations
-    const faqItems = i18n.t('faq', []); // fallback to empty array
+  const faqItems = i18n.t('faq.questions', []);// fallback to empty array
     if (!faqItems.length) return;
 
     let html = '';

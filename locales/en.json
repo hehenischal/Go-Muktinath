@@ -52,7 +52,10 @@
       "tims": "Required for trekking/independent travelers"
     }
   },
-  "faq": [
+ "faq": {
+  "title": "Frequently Asked Questions",
+  "subtitle": "Common queries for pilgrims and travelers.",
+  "questions": [
     {
       "q": "When is the best time to visit Muktinath?",
       "a": "The best time to visit is during the Spring (March to May) and Autumn (September to November) when the weather is clear and the mountain views are at their best. These seasons are ideal for both flights and road travel."
@@ -73,7 +76,8 @@
       "q": "Is the road to Muktinath suitable for all vehicles?",
       "a": "The road from Beni to Jomsom is rugged and often off-road. While high-clearance jeeps and motorcycles are best, local buses also operate. Small cars are not recommended for this route."
     }
-  ],
+  ]
+},
   "itinerary": {
     "travelers": {
       "title": "Number of Travelers",
@@ -228,7 +232,9 @@
     "permits": "📜 Permits",
     "tips": "💡 Tips",
     "totalEstimate": "Estimated total for {adults} adult(s) and {children} child(ren):",
-    "includes": "Includes transport, accommodation ({nights} nights), food ({days} days), and permits."
+    "includes": "Includes transport, accommodation ({nights} nights), food ({days} days), and permits.",
+    "perPerson": "per person",
+    "perVehicle": "per vehicle"
   },
   "travel": {
     "personas": {

@@ -230,9 +230,9 @@ function updateContextPanel(personaKey) {
                 ${persona.transport.map(t => {
                     let priceDisplay = t.cost;
                     if (t.pricing && t.pricing.type === 'perPerson') {
-                        priceDisplay += ' per person';
+                        priceDisplay += ' ' + i18n.t('contextPanel.perPerson');
                     } else if (t.pricing && t.pricing.type === 'perVehicle') {
-                        priceDisplay += ' per vehicle';
+                        priceDisplay += ' ' + i18n.t('contextPanel.perVehicle');
                     }
                     return `<li><strong>${getTransportName(t)}:</strong> ${priceDisplay} ${t.bookingDemo ? '<button class="btn btn-sm btn-outline-success ms-2" onclick="alert(\'Demo booking – no charge\')">Book Demo</button>' : ''}</li>`;
                 }).join('')}

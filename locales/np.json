@@ -1,265 +1,268 @@
 {
   "nav": {
-    "home": "नेपाली: Home",
-    "guide": "नेपाली: Travel Guide",
-    "budget": "नेपाली: Budget",
-    "itinerary": "नेपाली: Itinerary",
-    "faq": "नेपाली: FAQ"
+    "home": "गृहपृष्ठ",
+    "guide": "यात्रा गाइड",
+    "budget": "बजेट",
+    "itinerary": "यात्रा कार्यक्रम",
+    "faq": "प्रायः सोधिने प्रश्नहरू"
   },
   "hero": {
-    "title": "नेपाली: Explore Muktinath",
-    "subtitle": "नेपाली: A complete guide for pilgrims and travelers to the sacred shrine."
+    "title": "मुक्तिनाथको यात्रा",
+    "subtitle": "तीर्थयात्री र यात्रीहरूका लागि पवित्र स्थलको सम्पूर्ण गाइड।"
   },
   "guide": {
-    "title": "नेपाली: Travel Guide",
-    "subtitle": "नेपाली: Click an icon to view detailed route information, estimated travel times, and costs.",
-    "bus": "नेपाली: By Bus",
-    "flight": "नेपाली: By Flight",
-    "jeep": "नेपाली: By Jeep",
-    "viewDetails": "नेपाली: View Details"
+    "title": "यात्रा गाइड",
+    "subtitle": "विस्तृत मार्ग जानकारी, अनुमानित यात्रा समय र लागत हेर्न कुनै आइकनमा क्लिक गर्नुहोस्।",
+    "bus": "बसबाट",
+    "flight": "उडानबाट",
+    "jeep": "जिपबाट",
+    "viewDetails": "विवरण हेर्नुहोस्"
   },
   "budget": {
-    "title": "नेपाली: Budget Estimation",
-    "subtitle": "नेपाली: Plan your trip expenses based on your travel style.",
-    "noteLabel": "नेपाली: Note:",
-    "note": "नेपाली: Costs are approximate and may vary by season (High season: March-May, Sept-Nov). Prices are subject to change by local transport and hotel operators.",
+    "title": "बजेट अनुमान",
+    "subtitle": "आफ्नो यात्रा शैली अनुसार खर्च योजना बनाउनुहोस्।",
+    "noteLabel": "नोट:",
+    "note": "लागत अनुमानित मात्र हुन् र मौसम अनुसार फरक हुन सक्छन् (उच्च सिजन: मार्च-मे, सेप्टेम्बर-नोभेम्बर)। स्थानीय यातायात र होटल सञ्चालकहरूले मूल्य परिवर्तन गर्न सक्छन्।",
     "categories": {
-      "transport": "नेपाली: Transport (Pokhara to Jomsom/Muktinath)",
-      "accommodation": "नेपाली: Accommodation",
-      "food": "नेपाली: Food & Water",
-      "permits": "नेपाली: Permits & Fees"
+      "transport": "यातायात (पोखरा देखि जोमसोम/मुक्तिनाथ)",
+      "accommodation": "आवास",
+      "food": "खाना र पानी",
+      "permits": "अनुमति पत्र र शुल्क"
     },
     "options": {
-      "localBus": "नेपाली: Local Bus",
-      "sharedJeep": "नेपाली: Shared Jeep",
-      "flight": "नेपाली: Domestic Flight",
-      "teahouse": "नेपाली: Basic Teahouse",
-      "hotel": "नेपाली: Standard Hotel",
-      "meals": "नेपाली: Daily Meals (3 times)",
-      "water": "नेपाली: Bottled Water",
-      "acap": "नेपाली: ACAP Permit",
-      "tims": "नेपाली: TIMS Card"
+      "localBus": "स्थानीय बस",
+      "sharedJeep": "सेयर जिप",
+      "flight": "आन्तरिक उडान",
+      "teahouse": "साधारण चिया पसल",
+      "hotel": "मध्यम स्तरको होटल",
+      "meals": "दैनिक खाना (३ पटक)",
+      "water": "बोतलको पानी",
+      "acap": "एसीएपी अनुमति पत्र",
+      "tims": "टिम्स कार्ड"
     },
     "notes": {
-      "localBus": "नेपाली: One-way, budget friendly",
-      "sharedJeep": "नेपाली: Faster than bus",
-      "flight": "नेपाली: 20-minute scenic flight",
-      "teahouse": "नेपाली: Common bathroom, simple room",
-      "hotel": "नेपाली: Attached bath, better amenities",
-      "meals": "नेपाली: Includes Dal Bhat, snacks",
-      "water": "नेपाली: Price increases with altitude",
-      "acap": "नेपाली: For foreigners (SAARC: NPR 1,000)",
-      "tims": "नेपाली: Required for trekking/independent travelers"
+      "localBus": "एकतर्फी, बजेट अनुकूल",
+      "sharedJeep": "बस भन्दा छिटो",
+      "flight": "२० मिनेटको मनोरम उडान",
+      "teahouse": "साझा बाथरूम, साधारण कोठा",
+      "hotel": "संलग्न बाथरूम, राम्रो सुविधा",
+      "meals": "दाल भात, खाजा सहित",
+      "water": "उचाइ अनुसार मूल्य बढ्छ",
+      "acap": "विदेशीहरूका लागि (सार्क: रू १,०००)",
+      "tims": "ट्रेकिङ/स्वतन्त्र यात्रीहरूका लागि आवश्यक"
     }
   },
-  "faq": [
+  "faq":{
+  "title": "प्रायः सोधिने प्रश्नहरू",
+  "subtitle": "तीर्थयात्री र यात्रीहरूका लागि सामान्य प्रश्नहरू।",
+  "questions":  [
     {
-      "q": "नेपाली: When is the best time to visit Muktinath?",
-      "a": "नेपाली: The best time to visit is during the Spring (March to May) and Autumn (September to November) when the weather is clear and the mountain views are at their best. These seasons are ideal for both flights and road travel."
+      "q": "मुक्तिनाथ घुम्नको लागि सबैभन्दा राम्रो समय कहिले हो?",
+      "a": "भ्रमणको लागि उत्तम समय वसन्त (मार्च देखि मे) र शरद ऋतु (सेप्टेम्बर देखि नोभेम्बर) हो, जब मौसम सफा हुन्छ र हिमालको दृश्य उत्कृष्ट हुन्छ। यी मौसमहरू उडान र सडक यात्रा दुवैको लागि आदर्श हुन्।"
     },
     {
-      "q": "नेपाली: Do I need any special permits for this trip?",
-      "a": "नेपाली: Yes, visitors generally require the Annapurna Conservation Area Project (ACAP) permit and a TIMS (Trekkers' Information Management Systems) card. Requirements vary for domestic and international tourists."
+      "q": "यस यात्राको लागि कुनै विशेष अनुमति चाहिन्छ?",
+      "a": "हो, आगन्तुकहरूलाई सामान्यतया अन्नपूर्ण संरक्षण क्षेत्र परियोजना (एसीएपी) अनुमति पत्र र टिम्स (ट्रेकर्स सूचना व्यवस्थापन प्रणाली) कार्ड आवश्यक पर्दछ। स्वदेशी र अन्तर्राष्ट्रिय पर्यटकहरूको लागि आवश्यकता फरक हुन सक्छ।"
     },
     {
-      "q": "नेपाली: How can I prevent altitude sickness?",
-      "a": "नेपाली: Muktinath is located at 3,710 meters. To stay safe, stay hydrated, avoid rapid ascent, and consider spending a night in Jomsom or Kagbeni to acclimate. Consult a doctor about medication like Diamox if needed."
+      "q": "उचाइको रोगबाट कसरी बच्न सकिन्छ?",
+      "a": "मुक्तिनाथ समुद्र सतहबाट ३,७१० मिटरको उचाइमा अवस्थित छ। सुरक्षित रहन, प्रशस्त पानी पिउनुहोस्, छिटो उकालो चढ्न नदिनुहोस्, र अनुकूलनको लागि जोमसोम वा कागबेनीमा एक रात बिताउने विचार गर्नुहोस्। आवश्यक परे डाक्टरसँग डाइमक्स जस्ता औषधिको बारेमा सल्लाह लिनुहोस्।"
     },
     {
-      "q": "नेपाली: Are there ATMs available in Muktinath?",
-      "a": "नेपाली: There are limited ATM services in Ranipauwa (near the temple), but they can be unreliable due to connectivity issues. It is highly recommended to carry enough local cash from Pokhara or Jomsom."
+      "q": "मुक्तिनाथमा एटीएमहरू उपलब्ध छन्?",
+      "a": "रानीपौवा (मन्दिर नजिकै) मा सीमित एटीएम सेवाहरू छन्, तर जडान समस्याका कारण तिनीहरू अविश्वसनीय हुन सक्छन्। पोखरा वा जोमसोमबाट पर्याप्त नगद बोकेर लैजान अत्यधिक सिफारिस गरिन्छ।"
     },
     {
-      "q": "नेपाली: Is the road to Muktinath suitable for all vehicles?",
-      "a": "नेपाली: The road from Beni to Jomsom is rugged and often off-road. While high-clearance jeeps and motorcycles are best, local buses also operate. Small cars are not recommended for this route."
+      "q": "मुक्तिनाथको बाटो सबै सवारी साधनका लागि उपयुक्त छ?",
+      "a": "बेनी देखि जोमसोम सम्मको बाटो कच्ची र प्रायः अफ-रोड हुन्छ। उच्च-निकासी भएका जिप र मोटरसाइकलहरू उत्तम हुँदा, स्थानीय बसहरू पनि चल्छन्। यस मार्गका लागि साना कारहरू सिफारिस गरिएको छैन।"
     }
-  ],
+  ]},
   "itinerary": {
     "travelers": {
-      "title": "नेपाली: Number of Travelers",
-      "adults": "नेपाली: Adults",
-      "children": "नेपाली: Children",
-      "note": "नेपाली: Children under 10 may get permit discounts and child fares."
+      "title": "यात्रीहरूको संख्या",
+      "adults": "वयस्क",
+      "children": "बच्चा",
+      "note": "१० वर्ष मुनिका बच्चाहरूले अनुमति पत्रमा छुट र बाल भाडा पाउन सक्छन्।"
     },
-    "choosePlan": "नेपाली: Choose Your Plan",
+    "choosePlan": "आफ्नो योजना छान्नुहोस्",
     "planButtons": {
-      "fast": "नेपाली: 2-Day (Fast)",
-      "standard": "नेपाली: 3-Day (Standard)",
-      "family": "नेपाली: Family/Pilgrim",
-      "adventure": "नेपाली: Adventure",
-      "budget": "नेपाली: Budget/Solo"
+      "fast": "२-दिन (छिटो)",
+      "standard": "३-दिन (मानक)",
+      "family": "परिवार/तीर्थयात्री",
+      "adventure": "साहसिक",
+      "budget": "बजेट/एक्लो"
     },
     "plans": {
       "fast": {
-        "title": "नेपाली: 2-Day (Fast) Plan",
-        "description": "नेपाली: Flight-based express trip for travelers with minimal time.",
+        "title": "२-दिन (छिटो) योजना",
+        "description": "कम समय भएका यात्रीहरूका लागि उडान-आधारित द्रुत यात्रा।",
         "days": [
           {
             "day": 1,
-            "title": "नेपाली: Flight to Jomsom & Jeep to Muktinath",
+            "title": "जोमसोमको लागि उडान र मुक्तिनाथको लागि जिप",
             "activities": [
-              "नेपाली: Fly from Pokhara to Jomsom (20 mins)",
-              "नेपाली: Private jeep to Muktinath",
-              "नेपाली: Afternoon temple visit and 108 sprouts bath"
+              "पोखराबाट जोमसोम उडान (२० मिनेट)",
+              "निजी जिपद्वारा मुक्तिनाथ",
+              "दिउँसो मन्दिर दर्शन र १०८ धारामा स्नान"
             ]
           },
           {
             "day": 2,
-            "title": "नेपाली: Morning Prayer & Return",
+            "title": "बिहानको प्रार्थना र फिर्ती",
             "activities": [
-              "नेपाली: Early morning Darshan",
-              "नेपाली: Jeep to Jomsom",
-              "नेपाली: Return flight to Pokhara"
+              "बिहानै दर्शन",
+              "जिपद्वारा जोमसोम",
+              "पोखराको लागि फिर्ती उडान"
             ]
           }
         ]
       },
       "standard": {
-        "title": "नेपाली: 3-Day (Standard) Plan",
-        "description": "नेपाली: The classic road-trip balance between comfort and sightseeing.",
+        "title": "३-दिन (मानक) योजना",
+        "description": "आराम र दृश्यावलोकन बीचको सन्तुलन।",
         "days": [
           {
             "day": 1,
-            "title": "नेपाली: Drive to Jomsom",
+            "title": "जोमसोमको लागि यात्रा",
             "activities": [
-              "नेपाली: Scenic drive from Pokhara",
-              "नेपाली: Stop at Tatopani Hot Springs",
-              "नेपाली: Stay in Jomsom"
+              "पोखराबाट मनोरम ड्राइभ",
+              "तातोपानी तातो पानीको मुहानमा रोकिनुहोस्",
+              "जोमसोममा बास"
             ]
           },
           {
             "day": 2,
-            "title": "नेपाली: Muktinath & Kagbeni",
+            "title": "मुक्तिनाथ र कागबेनी",
             "activities": [
-              "नेपाली: Morning drive to temple",
-              "नेपाली: Visit Kagbeni ancient village",
-              "नेपाली: Explore local markets"
+              "बिहान मन्दिर ड्राइभ",
+              "कागबेनी प्राचीन गाउँको भ्रमण",
+              "स्थानीय बजार अन्वेषण"
             ]
           },
           {
             "day": 3,
-            "title": "नेपाली: Marpha & Return",
+            "title": "मार्फा र फिर्ती",
             "activities": [
-              "नेपाली: Visit Marpha apple orchards",
-              "नेपाली: Drive back to Pokhara"
+              "मार्फा स्याउ बगैंचा भ्रमण",
+              "पोखरा फर्कन ड्राइभ"
             ]
           }
         ]
       },
       "family": {
-        "title": "नेपाली: Family/Pilgrim Plan",
-        "description": "नेपाली: Focuses on religious rituals, accessibility, and comfortable lodging for all age groups.",
+        "title": "परिवार/तीर्थयात्री योजना",
+        "description": "धार्मिक अनुष्ठान, पहुँच र सबै उमेर समूहका लागि आरामदायक आवासमा केन्द्रित।",
         "days": [
           {
             "day": 1,
-            "title": "नेपाली: Pokhara to Jomsom",
+            "title": "पोखरा देखि जोमसोम",
             "activities": [
-              "नेपाली: Flight or luxury jeep",
-              "नेपाली: Leisurely check-in at Jomsom hotel"
+              "उडान वा विलासी जिप",
+              "जोमसोम होटलमा आरामदायी चेक-इन"
             ]
           },
           {
             "day": 2,
-            "title": "नेपाली: Religious Rituals",
+            "title": "धार्मिक अनुष्ठान",
             "activities": [
-              "नेपाली: Full day dedicated to Muktinath temple",
-              "नेपाली: MUKTI KUNDA holy bath",
-              "नेपाली: Special prayers/Puja services"
+              "मुक्तिनाथ मन्दिरमा पूरा दिन",
+              "मुक्ति कुण्डमा पवित्र स्नान",
+              "विशेष प्रार्थना/पूजा सेवाहरू"
             ]
           },
           {
             "day": 3,
-            "title": "नेपाली: Sightseeing",
+            "title": "दृश्यावलोकन",
             "activities": [
-              "नेपाली: Visit Kagbeni and Dhumba Lake",
-              "नेपाली: Family dinner in Jomsom"
+              "कागबेनी र धुम्बा तालको भ्रमण",
+              "जोमसोममा परिवारको साथ रात्री भोजन"
             ]
           },
           {
             "day": 4,
-            "title": "नेपाली: Relaxed Return",
+            "title": "आरामदायी फिर्ती",
             "activities": [
-              "नेपाली: Morning flight back to Pokhara"
+              "पोखरा फर्कन बिहानको उडान"
             ]
           }
         ]
       },
       "adventure": {
-        "title": "नेपाली: Adventure/Motorcycle Plan",
-        "description": "नेपाली: Designed for international and domestic tourists seeking a rugged experience.",
+        "title": "साहसिक/मोटरसाइकल योजना",
+        "description": "कठिन अनुभव खोज्ने अन्तर्राष्ट्रिय र स्वदेशी पर्यटकहरूका लागि डिजाइन गरिएको।",
         "days": [
           {
             "day": 1,
-            "title": "नेपाली: Pokhara to Kalopani",
+            "title": "पोखरा देखि कालोपानी",
             "activities": [
-              "नेपाली: Begin motorcycle/4x4 journey",
-              "नेपाली: Off-road terrain challenges"
+              "मोटरसाइकल/४x४ यात्रा सुरु",
+              "अफ-रोड चुनौतीहरू"
             ]
           },
           {
             "day": 2,
-            "title": "नेपाली: Jomsom & Muktinath",
+            "title": "जोमसोम र मुक्तिनाथ",
             "activities": [
-              "नेपाली: Drive through Kali Gandaki riverbed",
-              "नेपाली: Reach Muktinath (3,710m)"
+              "काली गण्डकी नदीको सुक्खा बगर हुँदै ड्राइभ",
+              "मुक्तिनाथ (३,७१० मिटर) पुग्नुहोस्"
             ]
           },
           {
             "day": 3,
-            "title": "नेपाली: Upper Mustang Gateway",
+            "title": "अपर मुस्ताङको प्रवेशद्वार",
             "activities": [
-              "नेपाली: Explore Kagbeni and Lubra Valley trek"
+              "कागबेनी र लुब्रा उपत्यका ट्रेक अन्वेषण"
             ]
           },
           {
             "day": 4,
-            "title": "नेपाली: Downhill Return",
+            "title": "ओर्लने बाटो",
             "activities": [
-              "नेपाली: Drive to Tatopani for relaxation"
+              "आरामको लागि तातोपानी ड्राइभ"
             ]
           },
           {
             "day": 5,
-            "title": "नेपाली: Arrival Pokhara",
+            "title": "पोखरा आगमन",
             "activities": [
-              "नेपाली: Final leg of the road adventure"
+              "साहसिक यात्राको अन्तिम चरण"
             ]
           }
         ]
       },
       "budget": {
-        "title": "नेपाली: Budget/Solo Plan",
-        "description": "नेपाली: Optimized for cost-effectiveness using local transport.",
+        "title": "बजेट/एक्लो योजना",
+        "description": "स्थानीय यातायात प्रयोग गरेर लागत-प्रभावकारीताका लागि अनुकूलित।",
         "days": [
           {
             "day": 1,
-            "title": "नेपाली: Local Bus Journey",
+            "title": "स्थानीय बस यात्रा",
             "activities": [
-              "नेपाली: Pokhara to Ghasa by local bus",
-              "नेपाली: Budget lodge stay"
+              "स्थानीय बसद्वारा पोखरा देखि घासा",
+              "बजेट लजमा बास"
             ]
           },
           {
             "day": 2,
-            "title": "नेपाली: Shared Jeep Transfer",
+            "title": "सेयर जिप स्थानान्तरण",
             "activities": [
-              "नेपाली: Shared jeep to Jomsom/Muktinath",
-              "नेपाली: Dormitory stay in Ranipauwa"
+              "सेयर जिपद्वारा जोमसोम/मुक्तिनाथ",
+              "रानीपौवामा छात्रावास बास"
             ]
           },
           {
             "day": 3,
-            "title": "नेपाली: Temple & Return Prep",
+            "title": "मन्दिर र फिर्तीको तयारी",
             "activities": [
-              "नेपाली: Morning temple visit",
-              "नेपाली: Hike to nearby viewpoints"
+              "बिहान मन्दिर दर्शन",
+              "नजिकैका दृश्य बिन्दुहरूमा पैदल यात्रा"
             ]
           },
           {
             "day": 4,
-            "title": "नेपाली: Return Journey",
+            "title": "फिर्ती यात्रा",
             "activities": [
-              "नेपाली: Local transport back to Pokhara"
+              "स्थानीय यातायातद्वारा पोखरा फर्कन"
             ]
           }
         ]
@@ -267,160 +270,163 @@
     }
   },
   "contextPanel": {
-    "title": "नेपाली: Travel Tips & Info",
-    "transport": "नेपाली: 🚌 Transport Options",
-    "accommodation": "नेपाली: 🏠 Accommodation",
-    "food": "नेपाली: 🍽️ Food",
-    "permits": "नेपाली: 📜 Permits",
-    "tips": "नेपाली: 💡 Tips",
-    "totalEstimate": "नेपाली: Estimated total for {adults} adult(s) and {children} child(ren):",
-    "includes": "नेपाली: Includes transport, accommodation ({nights} nights), food ({days} days), and permits."
+    "title": "यात्रा सुझाव र जानकारी",
+    "transport": "🚌 यातायात विकल्पहरू",
+    "accommodation": "🏠 आवास",
+    "food": "🍽️ खाना",
+    "permits": "📜 अनुमति पत्रहरू",
+    "tips": "💡 सुझावहरू",
+    "totalEstimate": "{adults} वयस्क र {children} बच्चाको लागि अनुमानित कुल:",
+    "includes": "यातायात, आवास ({nights} रात), खाना ({days} दिन), र अनुमति पत्र समावेश गर्दछ।",
+    "perPerson": "प्रति व्यक्ति",
+    "perVehicle": "प्रति सवारी"
+  
   },
   "travel": {
     "personas": {
       "fast": {
         "transport": {
-          "flight": "नेपाली: Flight (Pokhara → Jomsom)",
-          "jeepPrivate": "नेपाली: Private Jeep (Jomsom → Muktinath)"
+          "flight": "उडान (पोखरा → जोमसोम)",
+          "jeepPrivate": "निजी जिप (जोमसोम → मुक्तिनाथ)"
         },
         "accommodation": {
-          "hotelMuktinath": "नेपाली: Hotel Muktinath (Jomsom)",
-          "ecoLodge": "नेपाली: Eco Lodge (Ranipauwa)"
+          "hotelMuktinath": "होटल मुक्तिनाथ (जोमसोम)",
+          "ecoLodge": "इको लज (रानीपौवा)"
         },
-        "food": "नेपाली: Packed breakfast, local thali set (NPR 400-600), dinner at hotel",
+        "food": "प्याक गरिएको नास्ता, स्थानीय थाली सेट (रू ४००-६००), होटलमा रात्री भोजन",
         "tips": [
-          "नेपाली: Book flights at least 2 weeks in advance",
-          "नेपाली: Flights often cancel due to weather – keep a buffer day",
-          "नेपाली: Carry cash for permits and local expenses"
+          "कम्तीमा २ हप्ता अगाडि उडान बुक गर्नुहोस्",
+          "मौसमका कारण उडान प्रायः रद्द हुन्छ – एक बफर दिन राख्नुहोस्",
+          "अनुमति पत्र र स्थानीय खर्चको लागि नगद बोक्नुहोस्"
         ]
       },
       "standard": {
         "transport": {
-          "touristBus": "नेपाली: Tourist Bus (Pokhara → Jomsom)",
-          "sharedJeep": "नेपाली: Shared Jeep (Jomsom → Muktinath)",
-          "returnJeep": "नेपाली: Return Jeep (Muktinath → Pokhara)"
+          "touristBus": "पर्यटक बस (पोखरा → जोमसोम)",
+          "sharedJeep": "सेयर जिप (जोमसोम → मुक्तिनाथ)",
+          "returnJeep": "फिर्ती जिप (मुक्तिनाथ → पोखरा)"
         },
         "accommodation": {
-          "snowLeopard": "नेपाली: Hotel Snow Leopard (Jomsom)",
-          "guestHouse": "नेपाली: Muktinath Guest House"
+          "snowLeopard": "होटल स्नो लेपर्ड (जोमसोम)",
+          "guestHouse": "मुक्तिनाथ गेष्ट हाउस"
         },
-        "food": "नेपाली: Breakfast at lodge, packed lunch, dinner at local restaurant",
+        "food": "लजमा नास्ता, प्याक लंच, स्थानीय रेस्टुरेन्टमा रात्री भोजन",
         "tips": [
-          "नेपाली: Start early to avoid afternoon winds on the road",
-          "नेपाली: Try local apple brandy in Marpha",
-          "नेपाली: Carry warm layers even in summer"
+          "दिउँसोको हावाबाट बच्न सबेरै सुरु गर्नुहोस्",
+          "मार्फामा स्थानीय स्याउ ब्रान्डी प्रयास गर्नुहोस्",
+          "गर्मीमा पनि न्यानो लुगा बोक्नुहोस्"
         ]
       },
       "family": {
         "transport": {
-          "privateSUV": "नेपाली: Private SUV (Pokhara → Jomsom)",
-          "privateJeep": "नेपाली: Private Jeep (Jomsom → Muktinath)",
-          "flight": "नेपाली: Flight (Pokhara → Jomsom) – child discount available"
+          "privateSUV": "निजी एसयूभी (पोखरा → जोमसोम)",
+          "privateJeep": "निजी जिप (जोमसोम → मुक्तिनाथ)",
+          "flight": "उडान (पोखरा → जोमसोम) – बच्चा छुट उपलब्ध"
         },
         "accommodation": {
-          "hotelHimalayan": "नेपाली: Hotel Himalayan (Jomsom) – family rooms",
-          "familyLodge": "नेपाली: Muktinath Family Lodge"
+          "hotelHimalayan": "होटल हिमालयन (जोमसोम) – परिवार कोठा",
+          "familyLodge": "मुक्तिनाथ फेमिली लज"
         },
-        "food": "नेपाली: Family thali, continental options, kid-friendly meals",
+        "food": "पारिवारिक थाली, कन्टिनेन्टल विकल्प, बच्चा-मैत्री खाना",
         "tips": [
-          "नेपाली: Book private transport for comfort and flexibility",
-          "नेपाली: Pack snacks and entertainment for children",
-          "नेपाली: Ensure accommodation has attached bathrooms and heating"
+          "आराम र लचिलोपनको लागि निजी यातायात बुक गर्नुहोस्",
+          "बच्चाहरूको लागि खाजा र मनोरञ्जन प्याक गर्नुहोस्",
+          "आवासमा संलग्न बाथरूम र तताउने व्यवस्था छ भनी सुनिश्चित गर्नुहोस्"
         ]
       },
       "adventure": {
         "transport": {
-          "motorcycle": "नेपाली: Motorcycle Rental (Pokhara → Muktinath)",
-          "4x4": "नेपाली: 4x4 Jeep (Pokhara → Muktinath)",
-          "sharedJeep": "नेपाली: Shared Jeep (for shorter sections)"
+          "motorcycle": "मोटरसाइकल भाडा (पोखरा → मुक्तिनाथ)",
+          "4x4": "४x४ जिप (पोखरा → मुक्तिनाथ)",
+          "sharedJeep": "सेयर जिप (छोटो खण्डका लागि)"
         },
         "accommodation": {
-          "camping": "नेपाली: Camping Tent (Kali Gandaki)",
-          "adventureLodge": "नेपाली: Adventure Lodge (Jomsom)",
-          "teahouse": "नेपाली: Basic Teahouse (en route)"
+          "camping": "क्याम्पिङ टेन्ट (काली गण्डकी)",
+          "adventureLodge": "एडभेन्चर लज (जोमसोम)",
+          "teahouse": "साधारण चिया पसल (बाटोमा)"
         },
-        "food": "नेपाली: High-energy trail food, local dal bhat, packed lunches",
+        "food": "उच्च-उर्जा ट्रेल खाना, स्थानीय दाल भात, प्याक लंच",
         "tips": [
-          "नेपाली: Carry a basic repair kit for motorcycles",
-          "नेपाली: Fuel is scarce – fill up whenever possible",
-          "नेपाली: Respect local culture and seek permission before photographing",
-          "नेपाली: Acclimatize properly – altitude sickness can hit anyone"
+          "मोटरसाइकलको लागि आधारभूत मर्मत किट बोक्नुहोस्",
+          "इन्धन दुर्लभ छ – सम्भव भएसम्म भर्नुहोस्",
+          "फोटो खिच्नु अघि स्थानीय संस्कृतिको सम्मान गर्नुहोस् र अनुमति लिनुहोस्",
+          "उचाइको रोग जो कोहीलाई पनि हुन सक्छ – राम्रोसँग अभ्यस्त हुनुहोस्"
         ]
       },
       "budget": {
         "transport": {
-          "localBus": "नेपाली: Local Bus (Pokhara → Jomsom)",
-          "sharedJeep": "नेपाली: Shared Jeep (Jomsom → Muktinath)",
-          "returnBus": "नेपाली: Return by Local Bus (Jomsom → Pokhara)"
+          "localBus": "स्थानीय बस (पोखरा → जोमसोम)",
+          "sharedJeep": "सेयर जिप (जोमसोम → मुक्तिनाथ)",
+          "returnBus": "स्थानीय बसद्वारा फिर्ती (जोमसोम → पोखरा)"
         },
         "accommodation": {
-          "teahouse": "नेपाली: Basic Teahouse (Jomsom)",
-          "dorm": "नेपाली: Dormitory (Ranipauwa)"
+          "teahouse": "साधारण चिया पसल (जोमसोम)",
+          "dorm": "छात्रावास (रानीपौवा)"
         },
-        "food": "नेपाली: Local dal bhat (NPR 250-350/meal), noodle soup, chai",
+        "food": "स्थानीय दाल भात (रू २५०-३५०/पटक), नूडल सुप, चिया",
         "tips": [
-          "नेपाली: Carry enough cash – ATMs in Jomsom are unreliable",
-          "नेपाली: Shared jeeps fill up quickly – go early",
-          "नेपाली: Negotiate teahouse prices if staying multiple nights",
-          "नेपाली: Drink plenty of water and avoid alcohol for acclimatization"
+          "पर्याप्त नगद बोक्नुहोस् – जोमसोममा एटीएम अविश्वसनीय छन्",
+          "सेयर जिपहरू चाँडै भरिन्छन् – सबेरै जानुहोस्",
+          "धेरै रात बस्दा चिया पसलको मूल्यमा मोलतोल गर्नुहोस्",
+          "प्रशस्त पानी पिउनुहोस् र उचाइ अभ्यस्तताको लागि मदिराबाट बच्नुहोस्"
         ]
       }
     },
     "markers": {
-      "pokharaAirport": "नेपाली: Pokhara Airport",
-      "jomsomAirport": "नेपाली: Jomsom Airport",
-      "muktinathTemple": "नेपाली: Muktinath Temple",
-      "ranipauwaVillage": "नेपाली: Ranipauwa Village",
-      "pokharaBusPark": "नेपाली: Pokhara Bus Park",
-      "tatopaniHotSprings": "नेपाली: Tatopani Hot Springs",
-      "jomsomBazaar": "नेपाली: Jomsom Bazaar",
-      "kagbeniVillage": "नेपाली: Kagbeni Village",
-      "marphaOrchards": "नेपाली: Marpha Apple Orchards",
-      "pokharaLakeside": "नेपाली: Pokhara Lakeside",
-      "jomsomHelipad": "नेपाली: Jomsom Helipad",
-      "kagbeniMonastery": "नेपाली: Kagbeni Monastery",
-      "dhumbaLake": "नेपाली: Dhumba Lake",
-      "beni": "नेपाली: Beni – Last Town with Fuel",
-      "ghasa": "नेपाली: Ghasa – Steep Climb",
-      "kaliGandaki": "नेपाली: Kali Gandaki Riverbed",
-      "lubraValley": "नेपाली: Lubra Valley Trek Start"
+      "pokharaAirport": "पोखरा विमानस्थल",
+      "jomsomAirport": "जोमसोम विमानस्थल",
+      "muktinathTemple": "मुक्तिनाथ मन्दिर",
+      "ranipauwaVillage": "रानीपौवा गाउँ",
+      "pokharaBusPark": "पोखरा बस पार्क",
+      "tatopaniHotSprings": "तातोपानी तातो पानीको मुहान",
+      "jomsomBazaar": "जोमसोम बजार",
+      "kagbeniVillage": "कागबेनी गाउँ",
+      "marphaOrchards": "मार्फा स्याउ बगैंचा",
+      "pokharaLakeside": "पोखरा लेकसाइड",
+      "jomsomHelipad": "जोमसोम हेलिप्याड",
+      "kagbeniMonastery": "कागबेनी मठ",
+      "dhumbaLake": "धुम्बा ताल",
+      "beni": "बेनी – इन्धनको अन्तिम सहर",
+      "ghasa": "घासा – ठाडो उकालो",
+      "kaliGandaki": "काली गण्डकी नदीको सुक्खा बगर",
+      "lubraValley": "लुब्रा उपत्यका ट्रेक सुरु"
     }
   },
   "permits": {
-    "description": "नेपाली: ACAP NPR {acap} per adult (children under 10 free), TIMS NPR {tims} per adult"
+    "description": "एसीएपी रू {acap} प्रति वयस्क (१० वर्ष मुनिका बच्चा निःशुल्क), टिम्स रू {tims} प्रति वयस्क"
   },
   "modals": {
-    "routeLabel": "नेपाली: Route:",
-    "timeLabel": "नेपाली: Estimated Time:",
-    "conditionLabel": "नेपाली: Condition:",
-    "tipLabel": "नेपाली: Budget Tip:",
-    "safetyLabel": "नेपाली: Safety:",
-    "recommendationLabel": "नेपाली: Recommendation:",
+    "routeLabel": "मार्ग:",
+    "timeLabel": "अनुमानित समय:",
+    "conditionLabel": "अवस्था:",
+    "tipLabel": "बजेट सुझाव:",
+    "safetyLabel": "सुरक्षा:",
+    "recommendationLabel": "सिफारिस:",
     "bus": {
-      "title": "नेपाली: Travel by Bus (Budget/Solo Plan)",
-      "route": "नेपाली: Kathmandu/Pokhara to Jomsom via Beni [1].",
-      "time": "नेपाली: 12–15 hours from Pokhara [1].",
-      "condition": "नेपाली: Expect bumpy mountain roads. Highly recommended for budget-conscious travelers and solo backpackers.",
-      "tip": "नेपाली: This is the most cost-effective way to reach the region [1]."
+      "title": "बसद्वारा यात्रा (बजेट/एक्लो योजना)",
+      "route": "काठमाडौं/पोखरा देखि बेनी हुँदै जोमसोम [१]।",
+      "time": "पोखराबाट १२–१५ घण्टा [१]।",
+      "condition": "कच्ची बाटो, धक्का खाने अपेक्षा गर्नुहोस्। बजेट-सचेत यात्री र एक्लो ब्याकप्याकरहरूका लागि अत्यधिक सिफारिस गरिन्छ।",
+      "tip": "यो क्षेत्रमा पुग्ने सबैभन्दा लागत-प्रभावी तरिका हो [१]।"
     },
     "flight": {
-      "title": "नेपाली: Travel by Flight (Fast/Family Plan)",
-      "route": "नेपाली: Pokhara Airport to Jomsom Airport [1].",
-      "time": "नेपाली: 20-minute flight, followed by a 1.5-hour jeep ride to Muktinath [1].",
-      "condition": "नेपाली: Weather-dependent. Best for the 2-Day Express or Family plans to avoid long road travel [1].",
-      "safety": "नेपाली: Flights usually operate in the early morning to avoid high winds."
+      "title": "उडानद्वारा यात्रा (छिटो/परिवार योजना)",
+      "route": "पोखरा विमानस्थल देखि जोमसोम विमानस्थल [१]।",
+      "time": "२० मिनेटको उडान, त्यसपछि मुक्तिनाथसम्म १.५ घण्टाको जिप यात्रा [१]।",
+      "condition": "मौसममा निर्भर। लामो सडक यात्रा नगर्न २-दिन एक्सप्रेस वा परिवार योजनाका लागि उत्तम [१]।",
+      "safety": "उडानहरू सामान्यतया बिहानै सञ्चालन हुन्छन् ताकि तीव्र हावाबाट बच्न सकियोस्।"
     },
     "jeep": {
-      "title": "नेपाली: Travel by Jeep (Adventure Plan)",
-      "route": "नेपाली: Jomsom to Muktinath via Kagbeni [1].",
-      "time": "नेपाली: 1.5 to 2 hours from Jomsom [1].",
-      "condition": "नेपाली: Rugged Himalayan terrain. You can choose between shared jeeps (budget-friendly) or private jeeps (comfortable) [1].",
-      "recommendation": "नेपाली: Ideal for adventure seekers wanting to see the gates of Upper Mustang."
+      "title": "जिपद्वारा यात्रा (साहसिक योजना)",
+      "route": "जोमसोम देखि कागबेनी हुँदै मुक्तिनाथ [१]।",
+      "time": "जोमसोमबाट १.५ देखि २ घण्टा [१]।",
+      "condition": "हिमाली कच्ची बाटो। तपाईं सेयर जिप (बजेट-अनुकूल) वा निजी जिप (आरामदायक) बीच छनौट गर्न सक्नुहुन्छ [१]।",
+      "recommendation": "अपर मुस्ताङको प्रवेशद्वार हेर्न चाहने साहसिक खोजीहरूका लागि आदर्श।"
     }
   },
   "weather": {
-    "wind": "नेपाली: Wind",
-    "temp": "नेपाली: Temp",
-    "location": "नेपाली: Muktinath, NP"
+    "wind": "हावा",
+    "temp": "तापक्रम",
+    "location": "मुक्तिनाथ, नेपाल"
   }
 }

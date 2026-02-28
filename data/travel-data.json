@@ -4,6 +4,7 @@
       "transport": [
         {
           "mode": "Flight (Pokhara → Jomsom)",
+          "key": "flight",
           "cost": "USD 100-125",
           "pricing": {
             "type": "perPerson",
@@ -16,6 +17,7 @@
         },
         {
           "mode": "Private Jeep (Jomsom → Muktinath)",
+          "key": "jeepPrivate",
           "cost": "NPR 3,000-4,000",
           "pricing": {
             "type": "perVehicle",
@@ -31,6 +33,7 @@
       "accommodation": [
         {
           "name": "Hotel Muktinath (Jomsom)",
+          "key": "hotelMuktinath",
           "cost": "NPR 4,000-6,000/night",
           "pricing": {
             "type": "perRoom",
@@ -43,6 +46,7 @@
         },
         {
           "name": "Eco Lodge (Ranipauwa)",
+          "key": "ecoLodge",
           "cost": "NPR 3,500-5,000/night",
           "pricing": {
             "type": "perRoom",
@@ -72,16 +76,17 @@
         "Carry cash for permits and local expenses"
       ],
       "mapMarkers": [
-        { "name": "Pokhara Airport", "coords": [28.1898, 83.9812], "type": "transport" },
-        { "name": "Jomsom Airport", "coords": [28.7822, 83.7231], "type": "transport" },
-        { "name": "Muktinath Temple", "coords": [28.8163, 83.8715], "type": "temple" },
-        { "name": "Ranipauwa Village", "coords": [28.8150, 83.8700], "type": "accommodation" }
+        { "name": "Pokhara Airport", "key": "pokharaAirport", "coords": [28.1898, 83.9812], "type": "transport" },
+        { "name": "Jomsom Airport", "key": "jomsomAirport", "coords": [28.7822, 83.7231], "type": "transport" },
+        { "name": "Muktinath Temple", "key": "muktinathTemple", "coords": [28.8163, 83.8715], "type": "temple" },
+        { "name": "Ranipauwa Village", "key": "ranipauwaVillage", "coords": [28.8150, 83.8700], "type": "accommodation" }
       ]
     },
     "standard": {
       "transport": [
         {
           "mode": "Tourist Bus (Pokhara → Jomsom)",
+          "key": "touristBus",
           "cost": "NPR 2,500-3,500",
           "pricing": { "type": "perPerson", "currency": "NPR", "min": 2500, "max": 3500 },
           "bookingDemo": true,
@@ -89,6 +94,7 @@
         },
         {
           "mode": "Shared Jeep (Jomsom → Muktinath)",
+          "key": "sharedJeep",
           "cost": "NPR 500-800 per person",
           "pricing": { "type": "perPerson", "currency": "NPR", "min": 500, "max": 800 },
           "bookingDemo": true,
@@ -96,6 +102,7 @@
         },
         {
           "mode": "Return Jeep (Muktinath → Pokhara)",
+          "key": "returnJeep",
           "cost": "NPR 4,000-5,000",
           "pricing": { "type": "perVehicle", "currency": "NPR", "min": 4000, "max": 5000, "capacity": 6 },
           "bookingDemo": true
@@ -104,12 +111,14 @@
       "accommodation": [
         {
           "name": "Hotel Snow Leopard (Jomsom)",
+          "key": "snowLeopard",
           "cost": "NPR 3,000-4,500/night",
           "pricing": { "type": "perRoom", "currency": "NPR", "min": 3000, "max": 4500, "baseOccupancy": 2 },
           "photo": "assets/images/accommodation/snow-leopard.jpg"
         },
         {
           "name": "Muktinath Guest House",
+          "key": "guestHouse",
           "cost": "NPR 2,500-3,500/night",
           "pricing": { "type": "perRoom", "currency": "NPR", "min": 2500, "max": 3500, "baseOccupancy": 2 },
           "photo": "assets/images/accommodation/guest-house.jpg"
@@ -129,17 +138,18 @@
         "Carry warm layers even in summer"
       ],
       "mapMarkers": [
-        { "name": "Pokhara Bus Park", "coords": [28.2096, 83.9856], "type": "transport" },
-        { "name": "Tatopani Hot Springs", "coords": [28.5667, 83.6500], "type": "attraction" },
-        { "name": "Jomsom Bazaar", "coords": [28.7822, 83.7231], "type": "town" },
-        { "name": "Kagbeni Village", "coords": [28.8167, 83.7833], "type": "attraction" },
-        { "name": "Marpha Apple Orchards", "coords": [28.7500, 83.6833], "type": "attraction" }
+        { "name": "Pokhara Bus Park", "key": "pokharaBusPark", "coords": [28.2096, 83.9856], "type": "transport" },
+        { "name": "Tatopani Hot Springs", "key": "tatopaniHotSprings", "coords": [28.5667, 83.6500], "type": "attraction" },
+        { "name": "Jomsom Bazaar", "key": "jomsomBazaar", "coords": [28.7822, 83.7231], "type": "town" },
+        { "name": "Kagbeni Village", "key": "kagbeniVillage", "coords": [28.8167, 83.7833], "type": "attraction" },
+        { "name": "Marpha Apple Orchards", "key": "marphaOrchards", "coords": [28.7500, 83.6833], "type": "attraction" }
       ]
     },
     "family": {
       "transport": [
         {
           "mode": "Private SUV (Pokhara → Jomsom)",
+          "key": "privateSUV",
           "cost": "NPR 18,000-22,000 per vehicle",
           "pricing": { "type": "perVehicle", "currency": "NPR", "min": 18000, "max": 22000, "capacity": 6 },
           "bookingDemo": true,
@@ -147,6 +157,7 @@
         },
         {
           "mode": "Private Jeep (Jomsom → Muktinath)",
+          "key": "privateJeep",
           "cost": "NPR 4,000-5,000 per vehicle",
           "pricing": { "type": "perVehicle", "currency": "NPR", "min": 4000, "max": 5000, "capacity": 4 },
           "bookingDemo": true,
@@ -154,6 +165,7 @@
         },
         {
           "mode": "Flight (Pokhara → Jomsom) – child discount available",
+          "key": "flight",
           "cost": "USD 80 per child, USD 100 adult",
           "pricing": { "type": "perPerson", "currency": "USD", "min": 80, "max": 100, "childDiscount": true },
           "bookingDemo": true
@@ -162,12 +174,14 @@
       "accommodation": [
         {
           "name": "Hotel Himalayan (Jomsom) – family rooms",
+          "key": "hotelHimalayan",
           "cost": "NPR 6,000-8,000/night",
           "pricing": { "type": "perRoom", "currency": "NPR", "min": 6000, "max": 8000, "baseOccupancy": 4 },
           "photo": "assets/images/accommodation/hotel-himalayan.jpg"
         },
         {
           "name": "Muktinath Family Lodge",
+          "key": "familyLodge",
           "cost": "NPR 5,000-7,000/night",
           "pricing": { "type": "perRoom", "currency": "NPR", "min": 5000, "max": 7000, "baseOccupancy": 4 },
           "photo": "assets/images/accommodation/family-lodge.jpg"
@@ -187,17 +201,18 @@
         "Ensure accommodation has attached bathrooms and heating"
       ],
       "mapMarkers": [
-        { "name": "Pokhara Lakeside", "coords": [28.2096, 83.9856], "type": "town" },
-        { "name": "Jomsom Helipad", "coords": [28.7822, 83.7231], "type": "transport" },
-        { "name": "Kagbeni Monastery", "coords": [28.8167, 83.7833], "type": "temple" },
-        { "name": "Muktinath Temple Complex", "coords": [28.8163, 83.8715], "type": "temple" },
-        { "name": "Dhumba Lake", "coords": [28.8333, 83.8833], "type": "attraction" }
+        { "name": "Pokhara Lakeside", "key": "pokharaLakeside", "coords": [28.2096, 83.9856], "type": "town" },
+        { "name": "Jomsom Helipad", "key": "jomsomHelipad", "coords": [28.7822, 83.7231], "type": "transport" },
+        { "name": "Kagbeni Monastery", "key": "kagbeniMonastery", "coords": [28.8167, 83.7833], "type": "temple" },
+        { "name": "Muktinath Temple Complex", "key": "muktinathTemple", "coords": [28.8163, 83.8715], "type": "temple" },
+        { "name": "Dhumba Lake", "key": "dhumbaLake", "coords": [28.8333, 83.8833], "type": "attraction" }
       ]
     },
     "adventure": {
       "transport": [
         {
           "mode": "Motorcycle Rental (Pokhara → Muktinath)",
+          "key": "motorcycle",
           "cost": "NPR 3,500-5,000 per day",
           "pricing": { "type": "perVehicle", "currency": "NPR", "min": 3500, "max": 5000, "capacity": 2 },
           "bookingDemo": true,
@@ -205,6 +220,7 @@
         },
         {
           "mode": "4x4 Jeep (Pokhara → Muktinath)",
+          "key": "4x4",
           "cost": "NPR 25,000-30,000 per vehicle (5 days)",
           "pricing": { "type": "perVehicle", "currency": "NPR", "min": 25000, "max": 30000, "capacity": 4 },
           "bookingDemo": true,
@@ -212,6 +228,7 @@
         },
         {
           "mode": "Shared Jeep (for shorter sections)",
+          "key": "sharedJeep",
           "cost": "NPR 500-1,000 per person",
           "pricing": { "type": "perPerson", "currency": "NPR", "min": 500, "max": 1000 },
           "bookingDemo": true
@@ -220,18 +237,21 @@
       "accommodation": [
         {
           "name": "Camping Tent (Kali Gandaki)",
+          "key": "camping",
           "cost": "NPR 1,000-2,000 per night (gear rental extra)",
           "pricing": { "type": "perTent", "currency": "NPR", "min": 1000, "max": 2000, "baseOccupancy": 2 },
           "photo": "assets/images/accommodation/camping.jpg"
         },
         {
           "name": "Adventure Lodge (Jomsom)",
+          "key": "adventureLodge",
           "cost": "NPR 2,500-3,500/night",
           "pricing": { "type": "perRoom", "currency": "NPR", "min": 2500, "max": 3500, "baseOccupancy": 2 },
           "photo": "assets/images/accommodation/adventure-lodge.jpg"
         },
         {
           "name": "Basic Teahouse (en route)",
+          "key": "teahouse",
           "cost": "NPR 800-1,500/night",
           "pricing": { "type": "perRoom", "currency": "NPR", "min": 800, "max": 1500, "baseOccupancy": 2 },
           "photo": "assets/images/accommodation/teahouse-basic.jpg"
@@ -252,19 +272,20 @@
         "Acclimatize properly – altitude sickness can hit anyone"
       ],
       "mapMarkers": [
-        { "name": "Pokhara – Start Point", "coords": [28.2096, 83.9856], "type": "town" },
-        { "name": "Beni – Last Town with Fuel", "coords": [28.3500, 83.5833], "type": "town" },
-        { "name": "Ghasa – Steep Climb", "coords": [28.6333, 83.6333], "type": "village" },
-        { "name": "Kali Gandaki Riverbed", "coords": [28.7500, 83.6833], "type": "natural" },
-        { "name": "Kagbeni – Gateway to Upper Mustang", "coords": [28.8167, 83.7833], "type": "village" },
-        { "name": "Muktinath – Final Destination", "coords": [28.8163, 83.8715], "type": "temple" },
-        { "name": "Lubra Valley Trek Start", "coords": [28.8333, 83.8000], "type": "trail" }
+        { "name": "Pokhara – Start Point", "key": "pokhara", "coords": [28.2096, 83.9856], "type": "town" },
+        { "name": "Beni – Last Town with Fuel", "key": "beni", "coords": [28.3500, 83.5833], "type": "town" },
+        { "name": "Ghasa – Steep Climb", "key": "ghasa", "coords": [28.6333, 83.6333], "type": "village" },
+        { "name": "Kali Gandaki Riverbed", "key": "kaliGandaki", "coords": [28.7500, 83.6833], "type": "natural" },
+        { "name": "Kagbeni – Gateway to Upper Mustang", "key": "kagbeniVillage", "coords": [28.8167, 83.7833], "type": "village" },
+        { "name": "Muktinath – Final Destination", "key": "muktinathTemple", "coords": [28.8163, 83.8715], "type": "temple" },
+        { "name": "Lubra Valley Trek Start", "key": "lubraValley", "coords": [28.8333, 83.8000], "type": "trail" }
       ]
     },
     "budget": {
       "transport": [
         {
           "mode": "Local Bus (Pokhara → Jomsom)",
+          "key": "localBus",
           "cost": "NPR 1,500-2,500",
           "pricing": { "type": "perPerson", "currency": "NPR", "min": 1500, "max": 2500 },
           "bookingDemo": true,
@@ -272,6 +293,7 @@
         },
         {
           "mode": "Shared Jeep (Jomsom → Muktinath)",
+          "key": "sharedJeep",
           "cost": "NPR 500-800",
           "pricing": { "type": "perPerson", "currency": "NPR", "min": 500, "max": 800 },
           "bookingDemo": true,
@@ -279,6 +301,7 @@
         },
         {
           "mode": "Return by Local Bus (Jomsom → Pokhara)",
+          "key": "returnBus",
           "cost": "NPR 1,500-2,500",
           "pricing": { "type": "perPerson", "currency": "NPR", "min": 1500, "max": 2500 },
           "bookingDemo": true
@@ -287,12 +310,14 @@
       "accommodation": [
         {
           "name": "Basic Teahouse (Jomsom)",
+          "key": "teahouse",
           "cost": "NPR 800-1,500/night",
           "pricing": { "type": "perRoom", "currency": "NPR", "min": 800, "max": 1500, "baseOccupancy": 2 },
           "photo": "assets/images/accommodation/teahouse-basic.jpg"
         },
         {
           "name": "Dormitory (Ranipauwa)",
+          "key": "dorm",
           "cost": "NPR 500-800/night",
           "pricing": { "type": "perPerson", "currency": "NPR", "min": 500, "max": 800 },
           "photo": "assets/images/accommodation/dorm.jpg"
@@ -313,11 +338,11 @@
         "Drink plenty of water and avoid alcohol for acclimatization"
       ],
       "mapMarkers": [
-        { "name": "Pokhara Local Bus Station", "coords": [28.2096, 83.9856], "type": "transport" },
-        { "name": "Beni – Change Point", "coords": [28.3500, 83.5833], "type": "town" },
-        { "name": "Jomsom Bus Park", "coords": [28.7822, 83.7231], "type": "transport" },
-        { "name": "Ranipauwa Dormitories", "coords": [28.8150, 83.8700], "type": "accommodation" },
-        { "name": "Muktinath Temple (free entry)", "coords": [28.8163, 83.8715], "type": "temple" }
+        { "name": "Pokhara Local Bus Station", "key": "pokharaBusPark", "coords": [28.2096, 83.9856], "type": "transport" },
+        { "name": "Beni – Change Point", "key": "beni", "coords": [28.3500, 83.5833], "type": "town" },
+        { "name": "Jomsom Bus Park", "key": "jomsomBusPark", "coords": [28.7822, 83.7231], "type": "transport" },
+        { "name": "Ranipauwa Dormitories", "key": "ranipauwaVillage", "coords": [28.8150, 83.8700], "type": "accommodation" },
+        { "name": "Muktinath Temple (free entry)", "key": "muktinathTemple", "coords": [28.8163, 83.8715], "type": "temple" }
       ]
     }
   },
