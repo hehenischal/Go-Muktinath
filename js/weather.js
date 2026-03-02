@@ -133,6 +133,7 @@ function showWeatherDetail(index) {
 
     const modalBody = document.getElementById('weatherDetailBody');
     const modalTitle = document.getElementById('weatherDetailModalLabel');
+    const modalElement = document.getElementById('weatherDetailModal');
 
     modalTitle.textContent = `Weather Details for ${day.dayName}`;
     modalBody.innerHTML = `
@@ -161,7 +162,17 @@ function showWeatherDetail(index) {
         </ul>
     `;
 
-    const modal = new bootstrap.Modal(document.getElementById('weatherDetailModal'));
+    const modal = new bootstrap.Modal(modalElement);
+    
+    // Blur any focused element inside the modal before it hides to avoid aria-hidden warning
+    const onHide = function() {
+        if (document.activeElement && modalElement.contains(document.activeElement)) {
+            document.activeElement.blur();
+        }
+        modalElement.removeEventListener('hide.bs.modal', onHide);
+    };
+    modalElement.addEventListener('hide.bs.modal', onHide);
+
     modal.show();
 }
 
