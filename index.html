@@ -1,10 +1,32 @@
 <!doctype html>
 <html lang="en">
 <head>
+
+
     <title>Go-Muktinath</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+    <!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="assets/favicon/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <!-- JSON‑LD Schema for Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Muktinath Darshan Tours",
+  "url": "https://muktintahdarshantours.com",
+  "logo": "https://muktintahdarshantours.com/logo.png",  <!-- adjust if you have a logo URL -->
+  "sameAs": [
+    "https://muktintahdarshantours.com/muktintah-package.html"
+  ],
+  "description": "Official travel partner for Muktinath pilgrimage. Book your package with transport, accommodation, and permits."
+}
+</script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
@@ -45,7 +67,14 @@
             <p class="lead" data-i18n="hero.subtitle">A complete guide for pilgrims and travelers to the sacred shrine.</p>
         </div>
     </header>
-
+<!-- Weather Forecast Section -->
+<section id="weather-forecast" class="py-3 bg-light border-bottom">
+    <div class="container">
+        <div class="row" id="forecast-container">
+            <!-- Forecast cards will be injected here by JavaScript -->
+        </div>
+    </div>
+</section>
     <!-- Travel Guide Section (FR-4,5,6) -->
     <section id="guide" class="container py-5">
         <h2 class="text-center mb-5" data-i18n="guide.title">Travel Guide</h2>
@@ -212,33 +241,62 @@
     </div>
 
     <!-- Weather Footer -->
-    <section id="weather-footer" class="py-4 mt-5 transition-bg">
-        <div class="container text-center text-white">
-            <div class="row align-items-center">
-                <!-- Wind -->
-                <div class="col-4">
-                    <div class="small text-uppercase fw-bold opacity-75" data-i18n="weather.wind">Wind</div>
-                    <div id="wind-speed" class="h5 mb-0">-- km/h</div>
-                </div>
-                <!-- Icon & Location -->
-                <div class="col-4">
-                    <div id="weather-icon" class="display-4 mb-0">🌡️</div>
-                    <div class="fw-bold mt-1" data-i18n="weather.location">Muktinath, NP</div>
-                </div>
-                <!-- Temperature -->
-                <div class="col-4">
-                    <div class="small text-uppercase fw-bold opacity-75" data-i18n="weather.temp">Temp</div>
-                    <div id="temp-large" class="h2 mb-0 fw-bold">--°C</div>
-                </div>
+  
+<!-- Booking Modal -->
+<div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="bookingModalLabel">✨ Special Offer! ✨</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="lead">Plan your Muktinath pilgrimage with our all‑inclusive package!</p>
+                <ul>
+                    <li>✔️ Transport (bus/flight/jeep)</li>
+                    <li>✔️ Comfortable accommodation</li>
+                    <li>✔️ Permit assistance</li>
+                    <li>✔️ Guided temple visit</li>
+                </ul>
+                <p>Book now for a hassle‑free spiritual journey.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="exploreManuallyBtn">No, explore manually</button>
+                <a href="https://muktinathdarshantours.com/muktinath-package.html" 
+                   class="btn btn-primary" 
+                   target="_self" 
+                   rel="dofollow" 
+                   referrerpolicy="unsafe-url"
+                   id="bookNowBtn">Yes, book now!</a>
             </div>
         </div>
-    </section>
+    </div>
+</div>
 
+<!-- Weather Detail Modal -->
+<div class="modal fade" id="weatherDetailModal" tabindex="-1" aria-labelledby="weatherDetailModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title" id="weatherDetailModalLabel">Weather Details</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="weatherDetailBody">
+                <!-- Content will be injected by JavaScript -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
     <!-- Scripts -->
+     
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- i18n must come before other custom scripts so that translations are ready when they run -->
     <script src="js/i18n.js"></script>
+    <script src="js/modal.js"></script>
     <script src="js/navigation.js"></script>
     <script src="js/budget.js"></script>
     <script src="js/itinerary.js"></script>
